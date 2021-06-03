@@ -16,7 +16,7 @@ export const Container = styled.View`
 
 export const TextInput = styled.TextInput`
   flex: 1;
-  color: #fff;
+  color: #f4ede8;
   font-size: 16px;
   font-family: 'RobotoSlab-Regular';
 `;
