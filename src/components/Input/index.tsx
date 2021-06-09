@@ -67,7 +67,7 @@ const Input: React.ForwardRefRenderFunction<InputRef, InputProps> = (
   }, [fieldName, registerField]);
 
   return (
-    <Container isFocused={isFocused}>
+    <Container hasError={!!error} isFocused={isFocused}>
       <Icon name={icon} size={20} color={isFocused ? '#ff9000' : '#666460'} />
       <TextInput
         keyboardAppearance="dark"
