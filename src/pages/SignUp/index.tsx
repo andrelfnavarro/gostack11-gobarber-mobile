@@ -18,7 +18,7 @@ import logoImg from '../../assets/logo.png';
 import Input from '../../components/Input';
 import { Button } from '../../components/Button';
 import { getValidationErrors } from '../../utils/getValidationErrors';
-import api from '../../services/api';
+import { api } from '../../services/api';
 
 interface SignUpFormData {
   name: string;
