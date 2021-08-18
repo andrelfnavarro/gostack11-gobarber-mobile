@@ -13,9 +13,9 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		353FE78E177342E19D602A48 /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46EBE78C5D4146AF98D74464 /* RobotoSlab-Regular.ttf */; };
 		3FB4CA5E4F674A9EA9803535 /* RobotoSlab-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D3AA8AD457F4FF0B89B53E8 /* RobotoSlab-Medium.ttf */; };
-		71A7AF3BC82103193FD6BED0 /* libPods-gobarber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34856104DAF33E9E189DFF6C /* libPods-gobarber.a */; };
-		7A97527D92218FD55E8D5560 /* libPods-gobarber-gobarberTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 417F42465F5D7B60430C02BF /* libPods-gobarber-gobarberTests.a */; };
+		42E19BD238BB5A6832AD8DD7 /* libPods-gobarber-gobarberTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 574FDB0D8835C93C29D8E1AE /* libPods-gobarber-gobarberTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		F8A2DD93CF3CA6B3738CAAC7 /* libPods-gobarber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD266F0CC6FAE2A79610D69 /* libPods-gobarber.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,22 +32,22 @@
 		00E356EE1AD99517003FC87E /* gobarberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gobarberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* gobarberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gobarberTests.m; sourceTree = "<group>"; };
-		04436C49FCF431325EEC95BB /* Pods-gobarber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gobarber.debug.xcconfig"; path = "Target Support Files/Pods-gobarber/Pods-gobarber.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* gobarber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gobarber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = gobarber/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = gobarber/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = gobarber/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = gobarber/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = gobarber/main.m; sourceTree = "<group>"; };
-		34856104DAF33E9E189DFF6C /* libPods-gobarber.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gobarber.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		417F42465F5D7B60430C02BF /* libPods-gobarber-gobarberTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gobarber-gobarberTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7AE9B99EC61A31D2D88614 /* Pods-gobarber-gobarberTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gobarber-gobarberTests.release.xcconfig"; path = "Target Support Files/Pods-gobarber-gobarberTests/Pods-gobarber-gobarberTests.release.xcconfig"; sourceTree = "<group>"; };
+		3094722D2F5B4FB8EE870329 /* Pods-gobarber-gobarberTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gobarber-gobarberTests.debug.xcconfig"; path = "Target Support Files/Pods-gobarber-gobarberTests/Pods-gobarber-gobarberTests.debug.xcconfig"; sourceTree = "<group>"; };
 		46EBE78C5D4146AF98D74464 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoSlab-Regular.ttf"; path = "../assets/fonts/RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
-		5BF202B06CB50DF21768F2CE /* Pods-gobarber-gobarberTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gobarber-gobarberTests.release.xcconfig"; path = "Target Support Files/Pods-gobarber-gobarberTests/Pods-gobarber-gobarberTests.release.xcconfig"; sourceTree = "<group>"; };
+		574FDB0D8835C93C29D8E1AE /* libPods-gobarber-gobarberTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gobarber-gobarberTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = gobarber/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D3AA8AD457F4FF0B89B53E8 /* RobotoSlab-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoSlab-Medium.ttf"; path = "../assets/fonts/RobotoSlab-Medium.ttf"; sourceTree = "<group>"; };
-		E34BF3C9FF84D77F3D9EFF12 /* Pods-gobarber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gobarber.release.xcconfig"; path = "Target Support Files/Pods-gobarber/Pods-gobarber.release.xcconfig"; sourceTree = "<group>"; };
+		9A05E4F0F8B2A5499F893F4A /* Pods-gobarber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gobarber.debug.xcconfig"; path = "Target Support Files/Pods-gobarber/Pods-gobarber.debug.xcconfig"; sourceTree = "<group>"; };
+		ACF85BFEBF8334CB34B8B47C /* Pods-gobarber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gobarber.release.xcconfig"; path = "Target Support Files/Pods-gobarber/Pods-gobarber.release.xcconfig"; sourceTree = "<group>"; };
+		ADD266F0CC6FAE2A79610D69 /* libPods-gobarber.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gobarber.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		FCDA5DD5290A0A35D05F8B45 /* Pods-gobarber-gobarberTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gobarber-gobarberTests.debug.xcconfig"; path = "Target Support Files/Pods-gobarber-gobarberTests/Pods-gobarber-gobarberTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A97527D92218FD55E8D5560 /* libPods-gobarber-gobarberTests.a in Frameworks */,
+				42E19BD238BB5A6832AD8DD7 /* libPods-gobarber-gobarberTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71A7AF3BC82103193FD6BED0 /* libPods-gobarber.a in Frameworks */,
+				F8A2DD93CF3CA6B3738CAAC7 /* libPods-gobarber.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,8 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				34856104DAF33E9E189DFF6C /* libPods-gobarber.a */,
-				417F42465F5D7B60430C02BF /* libPods-gobarber-gobarberTests.a */,
+				ADD266F0CC6FAE2A79610D69 /* libPods-gobarber.a */,
+				574FDB0D8835C93C29D8E1AE /* libPods-gobarber-gobarberTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,6 +118,18 @@
 			);
 			name = Resources;
 			path = "";
+			sourceTree = "<group>";
+		};
+		830C9F73BB5BD3FA9D62D7CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A05E4F0F8B2A5499F893F4A /* Pods-gobarber.debug.xcconfig */,
+				ACF85BFEBF8334CB34B8B47C /* Pods-gobarber.release.xcconfig */,
+				3094722D2F5B4FB8EE870329 /* Pods-gobarber-gobarberTests.debug.xcconfig */,
+				1B7AE9B99EC61A31D2D88614 /* Pods-gobarber-gobarberTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -135,8 +147,8 @@
 				00E356EF1AD99517003FC87E /* gobarberTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				EC35458D014EE84B49AD2D01 /* Pods */,
 				609691149F2D4A34B1044F27 /* Resources */,
+				830C9F73BB5BD3FA9D62D7CA /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -152,18 +164,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EC35458D014EE84B49AD2D01 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				04436C49FCF431325EEC95BB /* Pods-gobarber.debug.xcconfig */,
-				E34BF3C9FF84D77F3D9EFF12 /* Pods-gobarber.release.xcconfig */,
-				FCDA5DD5290A0A35D05F8B45 /* Pods-gobarber-gobarberTests.debug.xcconfig */,
-				5BF202B06CB50DF21768F2CE /* Pods-gobarber-gobarberTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,12 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "gobarberTests" */;
 			buildPhases = (
-				339A2DFE769E8653B4CC063E /* [CP] Check Pods Manifest.lock */,
+				A7DA8DFAD684B4957ECEA996 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				5338CFB661F0214074BEF074 /* [CP] Embed Pods Frameworks */,
-				A0DDA4D6185C42CC00EEB7AA /* [CP] Copy Pods Resources */,
+				77E81365D1EC6671F6B1FED3 /* [CP] Embed Pods Frameworks */,
+				65836AB18219A68263ACDF7B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,14 +192,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "gobarber" */;
 			buildPhases = (
-				B948DD07E3AAA1D9C36BC130 /* [CP] Check Pods Manifest.lock */,
+				6DED99FC371D70FB4715EA3E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				822713C90D39A11757AB77AB /* [CP] Embed Pods Frameworks */,
-				9BA980A06D2FF13E2D2A99B4 /* [CP] Copy Pods Resources */,
+				D9980C9A46FAB028FF5BA692 /* [CP] Embed Pods Frameworks */,
+				38B0D16130921C0BB2A2A815 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,7 +282,80 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		339A2DFE769E8653B4CC063E /* [CP] Check Pods Manifest.lock */ = {
+		38B0D16130921C0BB2A2A815 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gobarber/Pods-gobarber-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gobarber/Pods-gobarber-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gobarber/Pods-gobarber-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65836AB18219A68263ACDF7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gobarber-gobarberTests/Pods-gobarber-gobarberTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gobarber-gobarberTests/Pods-gobarber-gobarberTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gobarber-gobarberTests/Pods-gobarber-gobarberTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DED99FC371D70FB4715EA3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gobarber-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77E81365D1EC6671F6B1FED3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gobarber-gobarberTests/Pods-gobarber-gobarberTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gobarber-gobarberTests/Pods-gobarber-gobarberTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gobarber-gobarberTests/Pods-gobarber-gobarberTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7DA8DFAD684B4957ECEA996 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,24 +377,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5338CFB661F0214074BEF074 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-gobarber-gobarberTests/Pods-gobarber-gobarberTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-gobarber-gobarberTests/Pods-gobarber-gobarberTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gobarber-gobarberTests/Pods-gobarber-gobarberTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		822713C90D39A11757AB77AB /* [CP] Embed Pods Frameworks */ = {
+		D9980C9A46FAB028FF5BA692 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -336,62 +392,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gobarber/Pods-gobarber-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9BA980A06D2FF13E2D2A99B4 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-gobarber/Pods-gobarber-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-gobarber/Pods-gobarber-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gobarber/Pods-gobarber-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A0DDA4D6185C42CC00EEB7AA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-gobarber-gobarberTests/Pods-gobarber-gobarberTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-gobarber-gobarberTests/Pods-gobarber-gobarberTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gobarber-gobarberTests/Pods-gobarber-gobarberTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B948DD07E3AAA1D9C36BC130 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-gobarber-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -446,7 +446,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCDA5DD5290A0A35D05F8B45 /* Pods-gobarber-gobarberTests.debug.xcconfig */;
+			baseConfigurationReference = 3094722D2F5B4FB8EE870329 /* Pods-gobarber-gobarberTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -473,7 +473,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BF202B06CB50DF21768F2CE /* Pods-gobarber-gobarberTests.release.xcconfig */;
+			baseConfigurationReference = 1B7AE9B99EC61A31D2D88614 /* Pods-gobarber-gobarberTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -497,7 +497,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04436C49FCF431325EEC95BB /* Pods-gobarber.debug.xcconfig */;
+			baseConfigurationReference = 9A05E4F0F8B2A5499F893F4A /* Pods-gobarber.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -523,7 +523,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E34BF3C9FF84D77F3D9EFF12 /* Pods-gobarber.release.xcconfig */;
+			baseConfigurationReference = ACF85BFEBF8334CB34B8B47C /* Pods-gobarber.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
