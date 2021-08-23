@@ -12,6 +12,7 @@ import { Form } from '@unform/mobile';
 import { FormHandles } from '@unform/core';
 import * as Yup from 'yup';
 import Icon from 'react-native-vector-icons/Feather';
+import { launchImageLibrary } from 'react-native-image-picker';
 import {
   Container,
   Title,
@@ -105,6 +106,34 @@ export const Profile: React.FC = () => {
     [navigation, updateUser],
   );
 
+  const handleUpdateAvatar = useCallback(() => {
+    launchImageLibrary({ mediaType: 'photo' }, response => {
+      if (response.didCancel) {
+        return;
+      }
+
+      if (response.errorMessage) {
+        Alert.alert('Erro ao atualizar seu avatar');
+      }
+
+      if (response.assets) {
+        const source = { uri: response.assets[0].uri };
+
+        const data = new FormData();
+
+        data.append('avatar', {
+          type: 'image/jpg',
+          uri: source.uri,
+          name: `${user.id}.jpg`,
+        });
+
+        api.patch('users/avatar', data).then(res => {
+          updateUser(res.data);
+        });
+      }
+    });
+  }, [updateUser, user.id]);
+
   return (
     <>
       <KeyboardAvoidingView
@@ -121,7 +150,7 @@ export const Profile: React.FC = () => {
               <Icon name="chevron-left" size={24} color="#999591" />
             </BackButton>
 
-            <UserAvatarButton onPress={() => console.log(1)}>
+            <UserAvatarButton onPress={() => handleUpdateAvatar()}>
               <UserAvatar source={{ uri: user.avatar_url }} />
             </UserAvatarButton>
 
